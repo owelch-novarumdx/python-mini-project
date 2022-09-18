@@ -15,6 +15,7 @@ class main:
 
     def encrypt_string(self) -> str:
         output = ""
+        # comment
         for c in self.blank_string:
             for k,v in self.key.items():
                 if k == c:
